@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  6 AUG 2024 19:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  8 AUG 2024 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1090,9 +1090,83 @@ Local configuration file tkz-euclide.cfg found and used
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-protractor.tex
 2024/02/04 5.06c tkz-obj-eu-protractor.tex
-)) (./gvv.sty
-\c@matchleft=\count340
-\c@matchright=\count341
+)) (/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count340
+
+
+Package multicol Warning: May not work with the twocolumn option on input line 
+143.
+
+\mult@box=\box76
+\multicol@leftmargin=\dimen333
+\c@unbalance=\count341
+\c@collectmore=\count342
+\doublecol@number=\count343
+\multicoltolerance=\count344
+\multicolpretolerance=\count345
+\full@width=\dimen334
+\page@free=\dimen335
+\premulticols=\dimen336
+\postmulticols=\dimen337
+\multicolsep=\skip66
+\multicolbaselineskip=\skip67
+\partial@page=\box77
+\last@line=\box78
+\mc@boxedresult=\box79
+\maxbalancingoverflow=\dimen338
+\mult@rightbox=\box80
+\mult@grightbox=\box81
+\mult@firstbox=\box82
+\mult@gfirstbox=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\c@minrows=\count346
+\c@columnbadness=\count347
+\c@finalcolumnbadness=\count348
+\last@try=\dimen339
+\multicolovershoot=\dimen340
+\multicolundershoot=\dimen341
+\mult@nat@firstbox=\box120
+\colbreak@box=\box121
+\mc@col@check@num=\count349
+) (./gvv.sty
+\c@matchleft=\count350
+\c@matchright=\count351
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 )
@@ -1106,39 +1180,39 @@ File: latin1.def 2021/02/14 v1.3d Input encoding file
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen333
-\ar@mcellbox=\box76
-\extrarowheight=\dimen334
+\col@sep=\dimen342
+\ar@mcellbox=\box122
+\extrarowheight=\dimen343
 \NC@list=\toks53
-\extratabsurround=\skip66
-\backup@length=\skip67
-\ar@cellbox=\box77
+\extratabsurround=\skip68
+\backup@length=\skip69
+\ar@cellbox=\box123
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
-\LTleft=\skip68
-\LTright=\skip69
-\LTpre=\skip70
-\LTpost=\skip71
-\LTchunksize=\count342
-\LTcapwidth=\dimen335
-\LT@head=\box78
-\LT@firsthead=\box79
-\LT@foot=\box80
-\LT@lastfoot=\box81
-\LT@gbox=\box82
-\LT@cols=\count343
-\LT@rows=\count344
-\c@LT@tables=\count345
-\c@LT@chunks=\count346
+\LTleft=\skip70
+\LTright=\skip71
+\LTpre=\skip72
+\LTpost=\skip73
+\LTchunksize=\count352
+\LTcapwidth=\dimen344
+\LT@head=\box124
+\LT@firsthead=\box125
+\LT@foot=\box126
+\LT@lastfoot=\box127
+\LT@gbox=\box128
+\LT@cols=\count353
+\LT@rows=\count354
+\c@LT@tables=\count355
+\c@LT@chunks=\count356
 \LT@p@ftn=\toks54
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip72
-\multirow@cntb=\count347
-\multirow@dima=\skip73
-\bigstrutjot=\dimen336
+\multirow@colwidth=\skip74
+\multirow@cntb=\count357
+\multirow@dima=\skip75
+\bigstrutjot=\dimen345
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
@@ -1146,14 +1220,14 @@ Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
-\c@theorem=\count348
-\c@problem=\count349
-\c@proposition=\count350
-\c@lemma=\count351
-\c@example=\count352
-\c@rem=\count353
+\c@theorem=\count358
+\c@problem=\count359
+\c@proposition=\count360
+\c@lemma=\count361
+\c@example=\count362
+\c@rem=\count363
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
@@ -1165,97 +1239,97 @@ LaTeX Warning: Unused global option(s):
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 44.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 45.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-44.
+45.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 45.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-44.
+45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 45.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-44.
+45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 45.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 4
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
+LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 44.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 45.
 
 -- Lines per column: 50 (exact).
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count354
-\scratchdimen=\dimen337
-\scratchbox=\box83
-\nofMPsegments=\count355
-\nofMParguments=\count356
+\scratchcounter=\count364
+\scratchdimen=\dimen346
+\scratchbox=\box129
+\nofMPsegments=\count365
+\nofMParguments=\count366
 \everyMPshowfont=\toks55
-\MPscratchCnt=\count357
-\MPscratchDim=\dimen338
-\MPnumerator=\count358
-\makeMPintoPDFobject=\count359
+\MPscratchCnt=\count367
+\MPscratchDim=\dimen347
+\MPnumerator=\count368
+\makeMPintoPDFobject=\count369
 \everyMPtoPDFconversion=\toks56
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1266,377 +1340,70 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count360
+\c@lstlisting=\count370
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 44.
-Package gensymb Info: Math companion symbols declared on input line 44.
-LaTeX Info: Redefining \degree on input line 44.
-LaTeX Info: Redefining \celsius on input line 44.
+(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 45.
+Package gensymb Info: Math companion symbols declared on input line 45.
+LaTeX Info: Redefining \degree on input line 45.
+LaTeX Info: Redefining \celsius on input line 45.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 44.
-LaTeX Info: Redefining \ohm on input line 44.
-Package gensymb Info: Using \textohm for \ohm on input line 44.
-Package gensymb Info: Using \textmu for \micro on input line 44.
-Package hyperref Info: Link coloring OFF on input line 44.
+erthousand on input line 45.
+LaTeX Info: Redefining \ohm on input line 45.
+Package gensymb Info: Using \textohm for \ohm on input line 45.
+Package gensymb Info: Using \textmu for \micro on input line 45.
+Package hyperref Info: Link coloring OFF on input line 45.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-LaTeX Font Info:    Font shape `OT1/txr/b/sc' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/sc' tried instead on input line 53.
-LaTeX Font Info:    Font shape `OT1/txr/b/sc' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/sc' tried instead on input line 53.
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 5
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 5
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 5
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 5
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 58--62
-
+Underfull \hbox (badness 10000) in paragraph at lines 171--174
+[]$[] [] [] []$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--62
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--62
-
- []
-
-! Undefined control sequence.
-l.62 ...values of k for which the equation $7\cosx
-                                                   + 5\sinx = 2k+1$ has a so...
-
-? 
-! Undefined control sequence.
-l.62 ... k for which the equation $7\cosx + 5\sinx
-                                                   = 2k+1$ has a solution is
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--77
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--85
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--85
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--85
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--112
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--112
-
- []
-
-! Undefined control sequence.
-<recently read> \sinx 
-                      
-l.112 ... For $x \in (0,\pi)$, the equation $\sinx
-                                                   + 2\sin2x - \sin3x = 3$ has
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--120
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--120
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--120
-
- []
-
-! Undefined control sequence.
-l.120 ...s of the equation $\sqrt{3}secx + \cosecx
-                                                   + 2(\tanx - cotx) = 0$ in...
-
-? 
-! Undefined control sequence.
-l.120 ...quation $\sqrt{3}secx + \cosecx + 2(\tanx
-                                                   - cotx) = 0$ in the set S...
-
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
+Underfull \hbox (badness 4108) in paragraph at lines 182--185
+\OMS/txsy/m/n/12 ^^@\OT1/txr/m/n/12 2[] []$ is equal to
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/base/8r.enc}
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 132--136
+] [2
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--136
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--136
-
- []
-
-
-Overfull \hbox (20.31583pt too wide) in paragraph at lines 136--136
-  [][][][][][][][][][][][][][][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--154
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--154
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--154
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--163
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--163
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 158--163
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--176
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--176
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--176
-
- []
-
-! Undefined control sequence.
-l.176 ...tcolor{magenta}{5.}] Let $2\sin^2x+3\sinx
-                                                  -2>0$ and $x^2-x-2<0$ (x i...
-
-? 
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--183
-
- []
-
-[2] (./main.aux)
+] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1645,25 +1412,24 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30560 strings out of 476188
- 597872 string characters out of 5795815
- 1954975 words of memory out of 5000000
- 51879 multiletter control sequences out of 15000+600000
- 622255 words of font info for 160 fonts, out of 8000000 for 9000
+ 30701 strings out of 476188
+ 600126 string characters out of 5795815
+ 1982975 words of memory out of 5000000
+ 52007 multiletter control sequences out of 15000+600000
+ 618027 words of font info for 154 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
- 101i,7n,103p,1172b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxbsc.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfon
-ts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 57576 bytes).
+ 101i,7n,103p,1172b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfont
+s/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (2 pages, 52127 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 82 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
