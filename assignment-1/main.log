@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  9 AUG 2024 14:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  9 AUG 2024 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1388,8 +1388,8 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Overfull \hbox (14.9567pt too wide) detected at line 179
-[]
+Overfull \hbox (36.95667pt too wide) detected at line 181
+ []$[]   [] [] [] []  $ 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
@@ -1407,10 +1407,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30699 strings out of 476188
- 600158 string characters out of 5795815
- 1981975 words of memory out of 5000000
- 52009 multiletter control sequences out of 15000+600000
+ 30701 strings out of 476188
+ 600220 string characters out of 5795815
+ 1975975 words of memory out of 5000000
+ 52011 multiletter control sequences out of 15000+600000
  615335 words of font info for 150 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
  101i,11n,103p,1172b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1421,7 +1421,7 @@ onts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfont
 s/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 52845 bytes).
+Output written on main.pdf (2 pages, 52826 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
