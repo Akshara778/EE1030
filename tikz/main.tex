@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{circuitikz}
+\title{Assignment-4}
+\author{Akshara Sarma Chennubhatla}
+\date{August 2024}
+\begin{document}
+\begin{circuitikz}
+\draw (4,3) to[resistor,color=cyan,*-*] (0,0) node[label={[font=\footnotesize]above:A}]{} (1.5,-1.5)node[label={[font=\footnotesize]below:$60\Omega$}]{};
+\draw (4,-3) to[resistor,color=cyan,*-*] (8,0);
+\draw (8,0) to[resistor,color=cyan] (4,3) node[label={[font=\footnotesize]above:B}]{} 
+ (1.5,1.5)node[label={[font=\footnotesize]above:$100\Omega$}]{}; 
+\draw (0,0) to[resistor,color=cyan] (4,-3) node[label={[font=\footnotesize]below:D}]{} (6.5,1.5)node[label={[font=\footnotesize]above:$10\Omega$}]{};
+\draw (4,-3) to[resistor,color=cyan] (8,0) node[label={[font=\footnotesize]above:C}]{} (6.5,-1.5)node[label={[font=\footnotesize]below:$5\Omega$}]{};
+\draw (4,0) circle ( 0.7cm);
+\draw[->] (3.7,-0.45) -- (4.3,0.45); 
+\node at (5.2,0) {$15\Omega$};
+\draw (0,0) -- (0,-5);
+\draw (8,0) -- (11,0);
+\draw (11,0) -- (11,-5);
+\draw (4,3) -- (4,0.7);
+\draw (4,-3) -- (4,-0.7);
+\draw (0,-5) to[battery1,color=cyan] (11,-5) (6,-5) node[label={[font=\footnotesize]above:10V}]{} node[label={[font=\footnotesize]below:$\epsilon$}]{};
+\end{circuitikz}
+\end{document}
