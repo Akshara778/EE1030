@@ -1,0 +1,312 @@
+%iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}
+\usepackage{circuitikz}
+%\def\inputGnumericTable{}                         
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+\usepackage{multicol}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+\title{2011-ME-27-39}
+\author{EE24BTECH11003 - Akshara Sarma Chennubhatla}
+\maketitle
+\begin{enumerate}
+
+\item  Figure shows the schematic for the measurement of velocity of air $\brak{\text{density}=1.2 \text{kg}/m^3}$ through a constant area duct using a pitot tube and a water-tube manometer. The differential head of water $\brak{\text{density}=1000 \text{kg}/m^3}$ in the two columns of the manometer is $10$ mm. Take acceleration due to gravity as $9.8$ m/$s^2$. The velocity of air in m/s is
+\begin{center}
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\node [font=\LARGE] at (9.5,11.75) {};
+\node [font=\LARGE] at (9.25,12.5) {};
+\node [font=\LARGE] at (9.25,12.5) {};
+\draw[fill=black] (11.75,11.25) arc[start angle=180,end angle=360,radius=1cm];
+\draw[fill=white] (12,11.25) arc[start angle=180,end angle=360,radius=0.75cm];
+\draw [short] (11.75,13.75) -- (11.75,11.25);
+\draw [short] (12,13.75) -- (12,11.25);
+\draw [short] (13.75,11.25) -- (13.75,14.75);
+\draw [short] (13.5,11.25) -- (13.5,14.5);
+\draw [short] (13.75,14.75) -- (12.25,14.75);
+\draw [short] (13.5,14.5) -- (12.25,14.5);
+\draw [short] (12,13.75) -- (13.5,13.75);
+\draw [short] (13.75,13.75) -- (14.75,13.75);
+\draw [short] (14.75,13.75) -- (14.75,15.75);
+\draw [short] (14.75,15.75) -- (11,15.75);
+\draw [short] (11,15.75) -- (11,13.75);
+\draw [short] (11,13.75) -- (11.75,13.75);
+\draw (12.5,11.25) to[short] (13.5,11.25);
+\draw (12,13) to[short] (12.75,13);
+\draw [<->, >=Stealth] (12.25,12.75) -- (12.25,11.5);
+\node [font=\normalsize] at (12.85,12.25) {10 mm};
+\node [font=\normalsize] at (11.5,14.75) {Flow};
+\draw [->, >=Stealth] (11.25,14.5) -- (12,14.5);
+\draw [ fill=black ] (11.75,13) rectangle (12,11.25);
+\end{circuitikz}
+\end{center}
+\begin{enumerate}
+\item $6.4$
+\item $9.0$
+\item $12.8$
+\item $25.6$
+\end{enumerate}
+
+\item The values of enthalpy of steam at the inlet and outlet of a steam turbine in a Rankine cycle are $2800$ kJ/kg and $1800$ kJ/kg respectively. Neglecting pump work, the specific steam consumption in kg/kW-hour is
+\begin{enumerate}
+\item $3.6$
+\item $0.36$
+\item $0.06$
+\item $0.01$
+\end{enumerate}
+
+\item The integral $\int_{1}^{3} {\frac{1}{x} dx}$, when evaluated by using Simpson's $\frac{1}{3}$ rule on two equal subintervals each of length $1$, equals
+\begin{enumerate}
+\item $1.000$
+\item $1.098$
+\item $1.111$
+\item $1.120$
+\end{enumerate}
+
+\item Two identicals ball bearings $P$ and $Q$ are operating at loads $30$ kN and $45$ kN respectively. The ratio of the life of bearing $P$ to the life of bearing $Q$ is
+\begin{enumerate}
+\item $\frac{81}{16}$
+\item $\frac{27}{8}$
+\item $\frac{9}{4}$
+\item $\frac{3}{2}$
+\end{enumerate}
+
+\item For the four-bar linkage shown in the figure, the angular velocity of link $AB$ is $1$ rad/s. The length of link $CD$ is $1.5$ times the length of link $AB$. In the configuration shown, the angular velocity of link $CD$ in rad/s is
+\begin{center}
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw  (8.75,9.75) ellipse (0.5cm and 1.5cm);
+\draw  (15,9.75) ellipse (0.5cm and 1.5cm);
+\draw [draw=white,fill=white](7.75,8) rectangle (16.75,10.5);
+\draw [short] (7.75,10.5) -- (16.75,10.5);
+\draw [short] (8.75,10.75) -- (8.75,13);
+\draw [short] (8.75,13) -- (15,15);
+\draw [short] (15,15) -- (15,10.75);
+\draw [short] (8.75,10.75) -- (9.75,10.75);
+\draw [short] (15,10.75) -- (16,10.75);
+\draw [short] (8.75,11.5) -- (9.25,11.5);
+\draw [short] (9.25,11.5) -- (9.25,10.75);
+\draw [short] (15,11.5) -- (15.5,11.5);
+\draw [short] (15.5,11.5) -- (15.5,10.75);
+\draw [fill = white](8.75,10.75) circle (0.18cm);
+\draw [fill = white](15,10.75) circle (0.18cm);
+\draw [fill = white](15,15) circle (0.1cm);
+\draw [fill = white](8.75,13) circle (0.1cm);
+\draw [->, >=Stealth] (9.25,11.75) .. controls (9.25,12.75) and (8.25,12.5) .. (8.25,11.75) ;
+\node [font=\large] at (9.75,12.5) {1 rad/s};
+\node [font=\large] at (8.25,13.25) {B};
+\node [font=\large] at (14.5,15.25) {C};
+\node [font=\large] at (8,10.75) {A};
+\node [font=\large] at (14.25,11) {D};
+\draw [short] (8,10.5) -- (7.5,10);
+\draw [short] (8.5,10.5) -- (8,10);
+\draw [short] (9,10.5) -- (8.5,10);
+\draw [short] (9.5,10.5) -- (9,10);
+\draw [short] (10.25,10.5) -- (12.25,10.5);
+\draw [short] (10,10.5) -- (9.5,10);
+\draw [short] (10.5,10.5) -- (10,10);
+\draw [short] (11,10.5) -- (10.5,10);
+\draw [short] (11.5,10.5) -- (11,10);
+\draw [short] (12,10.5) -- (11.5,10);
+\draw [short] (12.5,10.5) -- (12,10);
+\draw [short] (13,10.5) -- (12.5,10);
+\draw [short] (13.5,10.5) -- (13,10);
+\draw [short] (14,10.5) -- (13.5,10);
+\draw [short] (14.5,10.5) -- (14,10);
+\draw [short] (15,10.5) -- (14.5,10);
+\draw [short] (15.5,10.5) -- (15,10);
+\draw [short] (16,10.5) -- (15.5,10);
+\draw [short] (16.5,10.5) -- (16,10);
+\end{circuitikz}
+\end{center}
+\begin{enumerate}
+\item $3$
+\item $\frac{3}{2}$
+\item $1$
+\item $\frac{2}{3}$
+\end{enumerate}
+
+\item A stone with mass of $0.1$ kg is catapulted as shown in the figure. The total force $F_x \brak{\text{in N}}$ exerted by the rubber band as a function of distance $x \brak{\text{in m}}$ is given by $F_x = 300x^2$. If the stone is displaced by $0.1$ m from the un-stretched position $\brak{x=0}$ of the rubber band, the energy stored in the rubber band is
+\begin{center}
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw [short] (12.25,15.75) .. controls (12,6.5) and (19,9.25) .. (19.5,15);
+\draw [short] (12.75,15.75) .. controls (13,6.25) and (19,11.25) .. (19,15);
+\draw  (12.5,15.75) ellipse (0.3cm and 0.2cm);
+\draw  (19.25,15) ellipse (0.3cm and 0.2cm);
+\draw [line width=1.3pt, short] (19.55,14.9) -- (9.5,10.75);
+\draw [line width=1.3pt, short] (12.25,15.75) -- (9,11.25);
+\draw [ line width=2pt , rotate around={-288:(9.25,11)}] (9.25,11) ellipse (0.25cm and 0.5cm);
+\draw [line width=1pt, dashed] (12.5,15.75) -- (19.25,15);
+\draw [line width=1.2pt, dashed] (15.5,16.25) -- (15,6.75);
+\draw [dashed] (8.5,10.8) -- (15.5,15.5);
+\draw [short] (13.25,10.75) .. controls (14.25,9) and (14.25,9.25) .. (14.25,7);
+\draw [short] (17,10.3) .. controls (15.75,9) and (15.75,9) .. (15.5,7);
+\draw [short] (14.25,7) .. controls (15,6.5) and (15,6.75) .. (15.5,7);
+\draw [->, >=Stealth] (15.25,15.5) -- (9.25,11.5);
+\draw [->, >=Stealth] (9.5,11.25) -- (11,12.25);
+\node [font=\large] at (11,11.75) {$F_x$};
+\node [font=\Large] at (11.25,13.25) {x};
+\draw [->, >=Stealth] (10.75,10.25) -- (9.25,11);
+\node [font=\large] at (11.25,10) {Stone of mass 0.1 kg};
+\draw [short] (9.25,11) -- (9.25,12);
+\end{circuitikz}
+\end{center}
+\begin{enumerate}
+\item $0.01$ J
+\item $0.1$ J
+\item $1$ J
+\item $10$ J
+\end{enumerate}
+
+\item Consider the differential equation $\frac{dy}{dx} = \brak{1 + y^2}x$. The general solution with constant $c$ is
+\begin{enumerate}
+\item $y = \tan \frac{x^2}{2} + \tan c$
+\item $y = \tan^2 \brak{\frac{x}{2} + c}$
+\item $y = \tan^2 \brak{\frac{x}{2}} + c$
+\item $y = \tan \brak{\frac{x^2}{2} + c}$
+\end{enumerate}
+
+\item An unbiased coin is tossed five times. The outcome of each toss is either a head or a tail. The probability of getting at least one head is
+\begin{enumerate}
+\item $\frac{1}{32}$
+\item $\frac{13}{32}$
+\item $\frac{16}{32}$
+\item $\frac{31}{32}$
+\end{enumerate}
+
+\item A mass of $1$ kg is attached to two identical springs each with stiffness $k=20$ kN/m as shown in the figure. Under frictionless condition, the natural frequency of the system in Hz is close to
+\begin{center}
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw  (9.5,17) rectangle (12,14.75);
+\draw  (10,14.5) circle (0.25cm);
+\draw  (11.5,14.5) circle (0.25cm);
+\draw (6.75,16.5) to[R] (9.5,16.5);
+\draw (6.75,15.25) to[R] (9.5,15.25);
+\draw (6.75,17.25) to[short] (6.75,14.25);
+\draw (6.75,14.25) to[short] (13.25,14.25);
+\draw [short] (7,14.25) -- (6.75,14);
+\draw [short] (13,14.25) -- (12.75,14);
+\draw [short] (7.5,14.25) -- (7.25,14);
+\draw [short] (6.75,17.25) -- (6.5,17);
+\draw [short] (8,14.25) -- (7.75,14);
+\draw [short] (8.5,14.25) -- (8.25,14);
+\node [font=\LARGE] at (8.75,14) {};
+\node [font=\LARGE] at (7.75,13.75) {};
+\node [font=\LARGE] at (8,13.75) {};
+\draw [short] (6.75,16.75) -- (6.5,16.5);
+\draw [short] (6.75,16.25) -- (6.5,16);
+\draw [short] (9,14.25) -- (8.75,14);
+\draw [short] (11.5,14.25) -- (11.25,14);
+\draw [short] (10.5,14.25) -- (10.25,14);
+\draw [short] (11,14.25) -- (10.75,14);
+\draw [short] (10,14.25) -- (9.75,14);
+\draw [short] (9.5,14.25) -- (9.25,14);
+\node [font=\LARGE] at (8.75,13) {};
+\node [font=\LARGE] at (8.75,13) {};
+\draw [short] (12.5,14.25) -- (12.25,14);
+\draw [short] (12,14.25) -- (11.75,14);
+\draw [short] (12.5,14.25) -- (12.25,14);
+\node [font=\LARGE] at (9.5,11.75) {};
+\draw [short] (6.75,15.75) -- (6.5,15.5);
+\draw [short] (6.75,15.25) -- (6.5,15);
+\node [font=\LARGE] at (8.25,13.25) {};
+\node [font=\LARGE] at (8.5,13.25) {};
+\draw [short] (6.75,14.75) -- (6.5,14.5);
+\node [font=\LARGE] at (9.25,12.5) {};
+\node [font=\LARGE] at (9.25,12.5) {};
+\node [font=\LARGE] at (10.5,15.75) {};
+\node [font=\LARGE] at (10.75,15.75) {1 kg};
+\draw [short] (10.75,18.5) -- (10.75,17.5);
+\draw [->, >=Stealth] (10.75,18) -- (11.75,18);
+\node [font=\LARGE] at (11.5,18.5) {x};
+\end{circuitikz}
+\end{center}
+\begin{enumerate}
+\item $32$
+\item $23$
+\item $16$
+\item $11$
+\end{enumerate}
+
+\item The shear strength of a sheet metal is $300$ MPa. The blanking force required to produce a blank of $100$mm diameter from a $1.5$ mm thick sheet is close to
+\begin{enumerate}
+\item $45$ kN
+\item $70$ kN
+\item $141$ kN
+\item $3500$ kN
+\end{enumerate}
+
+\item The ratios of the laminar hydrodynamic boundary layer thickness to thermal boundary layer thickness of flows of two fluids $P$ and $Q$ on a flat plate are $\frac{1}{2}$ and $2$ respectively. The Reynolds number based on the plate length for both the4 flows is $10^4$. The Prandtl and Nusselt numbers for $P$ are $\frac{1}{8}$ and $35$ respectively. The Prandtl and Nusselt numbers for $Q$ are respectively
+\begin{enumerate}
+\item $8$ and $140$
+\item $8$ and $70$
+\item $4$ and $70$
+\item $4$ and $35$
+\end{enumerate}
+
+\item The crank radius of a single-cylinder I.C engine is $60$ mm and the diameter of the cylinder is $80$ mm. The swept volume of the cylinder in ${cm}^3$ is
+\begin{enumerate}
+\item $48$
+\item $96$
+\item $302$
+\item $603$
+\end{enumerate}
+
+\item A pump handling a liquid raises its pressure from $1$ bar to $30$ bar. Take the density of the liquid as $990 \text{kg}/{m}^3$. The isentropic specific work donw by the pump in kJ/kg is
+\begin{enumerate}
+\item $0.10$
+\item $0.30$
+\item $2.50$
+\item $2.93$
+\end{enumerate}
+
+
+
+\end{enumerate}
+\end{document}
