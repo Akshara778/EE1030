@@ -22,7 +22,7 @@ plt.scatter(tri_coords[0,:], tri_coords[1, :])
 vert_labels = ['A','P','B'];
 for i, txt in enumerate(vert_labels):
     # Annotate each point with its label and coordinates
-    plt.text(tri_coords[0, i], tri_coords[1, i], f'{txt}\n({tri_coords[0, i]:.0f}, {tri_coords[1, i]:.0f})',
+    plt.text(tri_coords[0, i], tri_coords[1, i], f'{txt}\n({tri_coords[0, i]:.2f}, {tri_coords[1, i]:.2f})',
     fontsize=12, color = 'black', ha='center', va='bottom')
 plt.xlabel("x")
 plt.ylabel("y")
