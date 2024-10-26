@@ -1,0 +1,192 @@
+%iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+%\def\inputGnumericTable{}                         
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+\usepackage{multicol}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+\title{2011-MA-1-13}
+\author{EE24BTECH11003 - Akshara Sarma Chennubhatla% <-this % stops a space
+}
+\maketitle
+\begin{enumerate}
+\item The distinct eigen values of the matrix
+$\myvec{1 & 1 & 0\\1 & 1 & 0\\0 & 0 & 0}$ are
+\begin{enumerate}
+\item $0$ and $1$
+\item $1$ and $-1$
+\item $1$ and $2$
+\item $0$ and $2$
+\end{enumerate}
+
+\item The minimal polynomial of the matrix
+$\myvec{3 & 3 & 0\\3 & 3 & 0\\0 & 0 & 6}$ is
+\begin{enumerate}
+\item $x\brak{x-1}\brak{x-6}$
+\item $x\brak{x-3}$
+\item $\brak{x-3}\brak{x-6}$
+\item $x\brak{x-6}$
+\end{enumerate}
+
+\item Which of the following is the imaginary part of a possible value of $ln\brak{\sqrt{i}}$?
+\begin{enumerate}
+\item $\pi$
+\item $\frac{\pi}{2}$
+\item $\frac{\pi}{4}$
+\item $\frac{\pi}{8}$
+\end{enumerate}
+
+\item Let $f\colon \mathbb{C} \to \mathbb{C}$ be analytic except for a simple pole at $z=0$ and let $g\colon \mathbb{C} \to \mathbb{C}$ be analytic. Then, the value of $\frac{Res_{z=0}\cbrak{f\brak{z}g\brak{z}}}{Res_{z=0}\cbrak{f\brak{z}}}$ is
+\begin{enumerate}
+\item $g\brak{0}$
+\item $g'\brak{0}$
+\item $lim_{z \to 0} zf\brak{z}$
+\item $lim_{z \to 0} zf\brak{z}g\brak{z}$
+\end{enumerate}
+
+\item Let $I = \oint_{C}\brak{2x^2 + y^2}dx + e^{y}dy$, where $C$ is the boundary $\brak{\text{oriented anticlockwise}}$ of the region in the first quadrant bounded by $y=0,x^2 + y^2 = 1 \text{and} x=0$. The value of $I$ is
+\begin{enumerate}
+\item $-1$
+\item $-\frac{2}{3}$
+\item $\frac{2}{3}$
+\item $1$
+\end{enumerate}
+
+\item The series $\sum_{1}^{\infty} x^ln\brak{m}$, $x>0$, is convergent on the interval
+\begin{enumerate}
+\item $\brak{0,\frac{1}{e}}$
+\item $\brak{\frac{1}{e},e}$
+\item $\brak{0,e}$
+\item $\brak{1,e}$
+\end{enumerate}
+
+\item While solving the equation $x^2 - 3x + 1=0$ using the Newton-Raphson method with the initial guess of a root as $1$, the value of the root after one iteration is
+\begin{enumerate}
+\item $1.5$
+\item $1$
+\item $0.5$
+\item $0$
+\end{enumerate}
+
+\item Consider the system of equations
+$\myvec{5 & 2 & 1\\-2 & 5 & 2\\-1 & 2 & 8}\myvec{x_1\\x_2\\x_3}=\myvec{13\\-22\\14}$.
+With the initial guess of the solution $\sbrak{x_{1}^{\brak{0}},x_{2}^{\brak{0}},x_{3}^{\brak{0}}}^{T} = \sbrak{1,1,1}^{T}$, the approximate value of the solution $\sbrak{x_{1}^{\brak{0}},x_{2}^{\brak{0}},x_{3}^{\brak{0}}}^{T}$ after one iteration by the Gauss-Seidel method is
+\begin{enumerate}
+\item $\sbrak{2,-4.4,1.625}^{T}$
+\item $\sbrak{2,-4,-3}^{T}$
+\item $\sbrak{2,4.4,1.625}^{T}$
+\item $\sbrak{2,-4,3}^{T}$
+\end{enumerate}
+
+\item Let $y$ be the solution of the initial value problem
+\begin{align*}
+\frac{dy}{dx} = \brak{y^{2} + x}; y\brak{0}=1
+\end{align*}
+Using Taylor series method of order $2$ with the step size $h=0.1$, the approximate value of $y\brak{0.1}$ is
+\begin{enumerate}
+\item $1.315$
+\item $1.415$
+\item $1.115$
+\item $1.215$
+\end{enumerate}
+
+\item The partial differential equation
+\begin{align*}
+x^{2} \frac{\partial^{2}{z}}{\partial{x^2}} - \brak{y^2 - 1}x\frac{\partial^{2}{z}}{\partial{x}\partial{y}} + y\brak{y-1}^{2}\frac{\partial^{2}{z}}{\partial{y^2}} + x\frac{\partial{z}}{\partial{x}} + y\frac{\partial{z}}{\partial{y}}=0 
+\end{align*}
+\text{is hyperbolic in a region in the} XY- \text{plane if}
+\begin{enumerate}
+\item $x\neq0 \text{ and } y=1$
+\item $x=0 \text{ and } y\neq1$
+\item $x\neq0 \text{ and } y\neq1$
+\item $x=0 \text{ and } y=1$
+\end{enumerate}
+
+\item Which of the following functions is a probability density function of a random variable $X$?
+\begin{enumerate}
+\item $f\brak{x} =
+\begin{cases}
+x\brak{2-x} & 0<x<2 \\ 0 & \text{elsewhere}
+\end{cases}$
+\item $f\brak{x} =
+\begin{cases}
+x\brak{1-x} & 0<x<1 \\ 0 & \text{elsewhere}
+\end{cases}$
+\item $f\brak{x} =
+\begin{cases}
+2xe^{-x^2} & -1<x<1 \\ 0 & \text{elsewhere}
+\end{cases}$
+\item $f\brak{x} =
+\begin{cases}
+2xe^{-x^2} & x>0 \\ 0 & \text{elsewhere}
+\end{cases}$
+\end{enumerate}
+
+\item Let $X_1,X_2,X_3 \text{ and } X_4$ be independent standard normal random variables. The distribution of
+\begin{align*}
+W = \frac{1}{2}\cbrak{\brak{X_1-X_2}^2 + \brak{X_3-X_4}^2}
+\end{align*} is
+\begin{enumerate}
+\item $N\brak{0,1}$
+\item $N\brak{0,2}$
+\item $\chi_{2}^{2}$
+\item $\chi_{4}^{2}$
+\end{enumerate}
+
+\item For $n\geq 1$, let $\cbrak{X_n}$ be a sequence of independent random cariables with
+\begin{align*}
+	P\brak{X_n = n} = P\brak{X_n = -n} = \frac{1}{2n^2}, P\brak{X_n = 0} = 1 - \frac{1}{n^2}.
+\end{align*}
+Then, which of the following statements is \textbf{TRUE} for the sequence $\cbrak{X_n}$?
+\begin{enumerate}
+\item Weak Law of Large Numbers holds but Strong Law of Large Numbers does not hold
+\item Weak Law of Large Numbers does not hold but Strong Law of Large Numbers holds
+\item Both Weak Law of Large Numbers and Strong Law of Large Numbers hold
+\item Both Weak Law of Large Numbers and Strong Law of Large Numbers do not hold
+\end{enumerate}
+
+\end{enumerate}
+\end{document}
