@@ -1,0 +1,147 @@
+%iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}
+\usepackage{circuitikz}
+%\def\inputGnumericTable{}                         
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+\usepackage{multicol}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+\title{2013-XE-27-39}
+\author{EE24BTECH11003 - Akshara Sarma Chennubhatla}
+\maketitle
+\begin{enumerate}
+
+\item Flow past a circular cylinder can be produced by superposition of the following elementary potential flows:
+\begin{enumerate}
+\item Uniform flow, doublet
+\item Uniform flow, vortex
+\item Source, vortex
+\item Sink, vortex
+\end{enumerate}
+
+\item Let $\delta$, $\delta_1$ and $\delta_2$ denote respectively the boundary-layer thickness, displacement thickness and the momentum thickness for laminar boundary layer flow of an incompressible fluid over a flat plate. The correct relation among these quantities is
+\begin{enumerate}
+\item $\delta < \delta_1 < \delta_2$
+\item $\delta > \delta_1 > \delta_2$
+\item $\delta > \delta_1 < \delta_2$
+\item $\delta < \delta_1 > \delta_2$
+\end{enumerate}
+
+\item In the hydrodynamic entry region of a circular duct, the pressure forces balance the sum of
+\begin{enumerate}
+\item viscous and buoyancy forces
+\item inertia and buoyancy forces
+\item inertia and surface tension forces
+\item inertia and viscous forces
+\end{enumerate}
+
+\item Bodies with various cross-sectional shapes subjected to cross-flow of air are shown in the following figures. The characteristic dimension of all the shapes is the same. The cross-sectional shape with the largest coefficient of drag $\brak{\text{i.e. sum of the pressure and skin-friction drags}}$, at any moderately large Reynolds number, is
+\begin{enumerate}
+\item 
+\item \input{figs/fig1}
+\item \input{figs/fig2}
+\item \input{figs/fig3}\\
+\input{figs/fig4}
+\end{enumerate}
+
+\item A U-tube of a very small bore, with its limbs in a vertical plane and filled with a liquid of density $\rho$, up to a height of $h$, is rotated about a vertical axis, with an angular velocity of $\omega$, as shown in the Figure. The radius of each limb from the axis of rotation is $R$. Let $p_a$ be the atmospheric pressure and $g$, the gravitational acceleration. The angular velocity at which the pressure at the point $O$ becomes half of the atmospheric pressure is given by
+\begin{center}
+\input{figs/fig5}
+\end{center}
+\begin{enumerate}
+\item $\sqrt{\frac{p_a + 2\rho gh}{\rho R^2}}$
+\item $\sqrt{\frac{2\brak{p_a + \rho gh}}{\rho R^2}}$
+\item $\sqrt{\frac{p_a + 2\rho gh}{2\rho R^2}}$
+\item $\sqrt{\frac{p_a + \rho gh}{2\rho R^2}}$
+\end{enumerate}
+
+\item An incompressible fluid at a pressure of $150$ kPa $\brak{\text{absolute}}$ flows steadily through a two-dimensional channel with a velocity of $5$ m/s as shown in the Figure. The channel has a $90^{\circ}$ bend. The fluid leaves the channel with a pressure of $100$ kPa $\brak{\text{absolute}}$ and linearly-varying velocity profile. $v_{max}$ is four times $v_{min}$. The density of the fluid is $914.3$ kg/$m^3$. The velocity $v_{min}$, in m/s, is
+\input{figs/fig6}
+\begin{enumerate}
+\item $25$
+\item $2.5$
+\item $2.0$
+\item $0.2$
+\end{enumerate}
+
+\item The velocity vector corresponding to a flow field is given, with usual notation, by $\vec{V} = 3x\vec{i} + 4xy\vec{j}$. The magnitude of rotation at the point $\brak{2,2}$ in rad/s is
+\begin{enumerate}
+\item $0.75$
+\item $1.33$
+\item $2$
+\item $4$
+\end{enumerate}
+
+\item The stream function for a potential flow field is given by $\psi = x^2 - y^2$. The corresponding potential function, assuming zero potential at the origin, is
+\begin{enumerate}
+\item $x^2 + y^2$
+\item $2xy$
+\item $x^2 - y^2$
+\item $x - y$
+\end{enumerate}
+
+\item Fully developed flow of an oil takes place in a pipe of inner diameter $50$ mm. The pressure drop per metre length of the pipe is $2$ kPa. Determine the shear stress, in Pa, at the pipe wall.$\rule{2cm}{0.1pt}$
+
+\item The Darcy friction factor $f$ for a smooth pipe is given by $f = \frac{64}{Re}$ for laminar flow and by $f = \frac{0.3}{Re^{0.25}}$ for turbulent flow, where $Re$ is the Reynolds number based on the diameter. For fully developed flow of a fluid of density $1000$ kg/$m^3$ and dynamic viscosity $0.001$ Pa.s through a smooth pipe of diameter $10$ mm with a velocity of $1$ m/s, determine the Darcy friction factor.$\rule{2cm}{0.1pt}$
+
+\item Air flows steadily through a channel. The stagnation and static pressures at a point in the flow are measured by a Pitot tube and a wall pressure tap, respectively. The pressure difference is found to be $20$ mm Hg. The densities of air, water and mercury, in kg/$m^3$, are $1.18$, $1000$ and $13600$, respectively. The gravitational acceleration is $9.81$ m/$s^2$. Determine the air speed in m/s.$\rule{2cm}{0.1pt}$\\
+
+\textbf{Common Data for Questions 12 and 13:}\\
+
+The velocity field within a laminar boundary layer is given by the expression:
+\begin{align*}
+\vec{V} = \frac{Bu_{\infty}y}{x^{\frac{3}{2}}}\vec{i} + \frac{Bu_{\infty}y^{2}}{4x^{\frac{5}{2}}}\vec{j} 
+\end{align*}
+where $B = 100m^{\frac{1}{2}}$ and the free stream velocity $u_{\infty} = 0.1$ m/s.
+
+\item Calculate the x-direction component of the acceleration in m/$s^2$ at the point $x = 0.5$ m and $y = 50$ mm.$\rule{2cm}{0.1pt}$
+
+\item Find the slope of the streamline passing through the point $x = 0.5$ m and $y = 50$ mm.$\rule{2cm}{0.1pt}$
+
+
+\end{enumerate}
+\end{document}
+
