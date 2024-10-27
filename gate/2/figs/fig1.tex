@@ -1,0 +1,30 @@
+\begin{center}
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\node [font=\LARGE] at (9.5,11.75) {};
+\node [font=\LARGE] at (9.25,12.5) {};
+\node [font=\LARGE] at (9.25,12.5) {};
+\draw[fill=black] (11.75,11.25) arc[start angle=180,end angle=360,radius=1cm];
+\draw[fill=white] (12,11.25) arc[start angle=180,end angle=360,radius=0.75cm];
+\draw [short] (11.75,13.75) -- (11.75,11.25);
+\draw [short] (12,13.75) -- (12,11.25);
+\draw [short] (13.75,11.25) -- (13.75,14.75);
+\draw [short] (13.5,11.25) -- (13.5,14.5);
+\draw [short] (13.75,14.75) -- (12.25,14.75);
+\draw [short] (13.5,14.5) -- (12.25,14.5);
+\draw [short] (12,13.75) -- (13.5,13.75);
+\draw [short] (13.75,13.75) -- (14.75,13.75);
+\draw [short] (14.75,13.75) -- (14.75,15.75);
+\draw [short] (14.75,15.75) -- (11,15.75);
+\draw [short] (11,15.75) -- (11,13.75);
+\draw [short] (11,13.75) -- (11.75,13.75);
+\draw (12.5,11.25) to[short] (13.5,11.25);
+\draw (12,13) to[short] (12.75,13);
+\draw [<->, >=Stealth] (12.25,12.75) -- (12.25,11.5);
+\node [font=\normalsize] at (12.85,12.25) {10 mm};
+\node [font=\normalsize] at (11.5,14.75) {Flow};
+\draw [->, >=Stealth] (11.25,14.5) -- (12,14.5);
+\draw [ fill=black ] (11.75,13) rectangle (12,11.25);
+\end{circuitikz}
+\end{center}
+

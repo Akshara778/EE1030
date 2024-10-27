@@ -1,0 +1,25 @@
+\begin{center}
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+\draw [short] (12.25,15.75) .. controls (12,6.5) and (19,9.25) .. (19.5,15);
+\draw [short] (12.75,15.75) .. controls (13,6.25) and (19,11.25) .. (19,15);
+\draw  (12.5,15.75) ellipse (0.3cm and 0.2cm);
+\draw  (19.25,15) ellipse (0.3cm and 0.2cm);
+\draw [line width=1.3pt, short] (19.55,14.9) -- (9.5,10.75);
+\draw [line width=1.3pt, short] (12.25,15.75) -- (9,11.25);
+\draw [ line width=2pt , rotate around={-288:(9.25,11)}] (9.25,11) ellipse (0.25cm and 0.5cm);
+\draw [line width=1pt, dashed] (12.5,15.75) -- (19.25,15);
+\draw [line width=1.2pt, dashed] (15.5,16.25) -- (15,6.75);
+\draw [dashed] (8.5,10.8) -- (15.5,15.5);
+\draw [short] (13.25,10.75) .. controls (14.25,9) and (14.25,9.25) .. (14.25,7);
+\draw [short] (17,10.3) .. controls (15.75,9) and (15.75,9) .. (15.5,7);
+\draw [short] (14.25,7) .. controls (15,6.5) and (15,6.75) .. (15.5,7);
+\draw [->, >=Stealth] (15.25,15.5) -- (9.25,11.5);
+\draw [->, >=Stealth] (9.5,11.25) -- (11,12.25);
+\node [font=\large] at (11,11.75) {$F_x$};
+\node [font=\Large] at (11.25,13.25) {x};
+\draw [->, >=Stealth] (10.75,10.25) -- (9.25,11);
+\node [font=\large] at (11.25,10) {Stone of mass 0.1 kg};
+\draw [short] (9.25,11) -- (9.25,12);
+\end{circuitikz}
+\end{center}
