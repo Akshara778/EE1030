@@ -1,0 +1,127 @@
+%iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}
+\usepackage{circuitikz}
+%\def\inputGnumericTable{}                         
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+\usepackage{multicol}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+\title{2015-AE-40-52}
+\author{EE24BTECH11003 - Akshara Sarma Chennubhatla}
+\maketitle
+\begin{enumerate}
+
+\item A cube made of linear elastic isotropic material is subjected to a uniform hydrostatic pressure of $100$ N/$mm^2$. Under this load, the volume of the cube shrinks by $0.05\%$. The Young's modulus of the material, $E=300$ GPa. The Poisson's ratio of the material is $\rule{2cm}{0.1pt}$.
+
+\item A massless cantilever beam $PQ$ has a solid square cross section $\brak{10\text{ mm x }10\text{ mm}}$. This beam is subjected to a load $W$ through a rigid massless link at the point $Q$, as shown below $\brak{\text{figure not to scale}}$. If the Young's modulus of the material $E=200$ GPa, the deflection $\brak{\text{in mm}}$ at point $Q$ is $\rule{2cm}{0.1pt}$.
+\begin{center}
+\input{figs/fig1}
+\end{center}
+
+\item An aircraft, with a wing loading $\frac{W}{S} = 500$ N/$m^2$, is gliding at $\brak{\frac{L}{D}}_{max} = 10$ and $C_L = 0.69$. Considering the free stream density $\rho_{\infty} = 0.9$ kg/$m^3$, the equilibrium glide speed $\brak{\text{in m/s}}$ is $\rule{2cm}{0.1pt}.$
+
+\item For a thin flat plate at $2$ degress angle of attack, the pitching moment coefficient about the training edge is $\rule{2cm}{0.1pt}.$
+
+\item A satellite is to be transferred from its geostationary orbit to a circular polar orbit of the same radius through a single impulse out-of-plane maneuver. The magnitude of the change in velocity required is $\rule{2cm}{0.1pt}$ times the magnitude of the escape velocity.
+
+\item A planetary probe is launched at a speed of $200$ km/s and at a distance of $71,400$ km from the mass center of its nearest planet of mass $1.9$ x $10^{28}$ kg. The universal gravitational constant $G = 6.67$ x $10^{-11} \frac{m^3}{kg s^2}$. The ensuing path of the probe would be
+\begin{enumerate}
+\item ellipse
+\item hyperbolic
+\item parabolic
+\item circular
+\end{enumerate}
+
+\item The velocity of an incompressible laminar boundary layer over a flat plate developing under constant pressure is given by $\frac{u\brak{y}}{U_{\infty}} = \frac{3y}{2\delta} - \frac{1}{2}\brak{\frac{y}{\delta}}^3$. The freestream velocity $U_\infty = 10$ m/s and the dynamic viscosity of the fluid $\mu = 1.8$ x $10^{-5}\frac{kg}{ms}$. At a streamwise station where the boundary layer thickness $\delta = 5$ mm, the wall shear stress is $\rule{2cm}{0.1pt}$ x $10^{-3}$ Pa.
+
+\item the Pitot tube of an aircraft registers a pressure $p_0 = 54051 N/m^2$. The static pressure, density and the ratio of specific heats of the freestream are $p_\infty = 45565 N/m^2$, $\rho_\infty = 0.6417 kb/m^3$ and $\gamma = 1.4$, respectively. The indicated airspeed $\brak{\text{in m/s}}$ is
+\begin{enumerate}
+\item $157.6$
+\item $162.6$
+\item $172.0$
+\item $182.3$
+\end{enumerate}
+
+\item Consider a NACA 0012 aerfoil of chord $c$ in a freestream with velocity $V_\infty$ at a non-zero positive angle of attack $\alpha$. The average time-of-flight for a particle to move from the leading edge to the trailing edge on the suction and pressure sides are $t_1$ and $t_2$, respectively. Thin aerfoil theory yields the velocity perturbation to the freestream as $V_\infty\frac{\brak{1 + \cos\theta}\alpha}{\sin\theta}$ on the suction side and as $-V_\infty\frac{\brak{1 + \cos\theta}\alpha}{\sin\theta}$ on the pressure side, where $\theta$ corresponds to the chordwise position $x = \frac{c}{2}\brak{1-\cos\theta}$. Then $t_2 - t_1$ is
+\begin{enumerate}
+\item $-\frac{8\pi\alpha c}{V_\infty \brak{4 - \pi^{2}\alpha^{2}}}$
+\item $0$ 
+\item $\frac{4\pi\alpha c}{V_\infty \brak{4 - \pi^{2}\alpha^{2}}}$
+\item $\frac{8\pi\alpha c}{V_\infty \brak{4 - \pi^{2}\alpha^{2}}}$
+\end{enumerate}
+
+\item Air enters an aircraft engine at a velocity of $180$ m/s with a flow rate of $94$ kg/s. The engine combustor requires $9.2$ kg/s of air to burn $1$ kg/s of fuel. The velocity of gas exiting from the engine is $640$ m/s. The momentum thrust $\brak{\text{in N}}$ developed by the engine is
+\begin{enumerate}
+\item $43241$
+\item $45594$
+\item $47940$
+\item $49779$
+\end{enumerate}
+
+\item A solid rocket monitor is designed with a cylindrical end-burning propellent grain of length $1$ m and diameter $32$ cm. The density of the propellent grain is $1750 kg/m^3$. The specific impulse of the motor is $190$ s and the acceleration due to the gravity is $9.8 m/s^2$. Tf the propellent burns for a period of $150$ s, then the thrust $\brak{\text{in N}}$ produced by the rocket motor is $\rule{2cm}{0.1pt}$
+
+\item A liquid propellent rocket has the following component masses:
+\begin{align*}
+\text{Mass of payload} &= 180 kg\\
+\text{Mass of fuel} &= 470 kg\\
+\text{Mass of oxidizer} &= 1170 kg\\
+\text{Mass of structures} &= 150 kg\\
+\text{Mass of guidance systems} &= 20 kg\\
+\end{align*}
+The effective exhaust velocity is $3136$ m/s. The velocity increment $\brak{\text{in km/s}}$ of the rocket at burnout, while operating in outer space, is $\rule{2cm}{0.1pt}.$
+
+\item If all the eigenvalues of a matrix are real and ewual, then
+\begin{enumerate}
+\item the matrix is diagonalizable
+\item its eigenvectors are not necessarily linearly independent
+\item its eigenvectors are linearly independent
+\item its determinant is necessarily zero
+\end{enumerate}
+
+
+\end{enumerate}
+\end{document}
+
