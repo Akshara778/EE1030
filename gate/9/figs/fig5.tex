@@ -1,0 +1,24 @@
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw [line width=1.6pt, short] (7.5,15) -- (7.5,10.5);
+\draw [short] (7,14.75) -- (7.5,14.25);
+\draw [short] (7,14) -- (7.5,13.5);
+\draw [short] (7,13.25) -- (7.5,12.75);
+\draw [short] (7,12.5) -- (7.5,12);
+\draw [short] (7,11.75) -- (7.5,11.25);
+\draw [short] (7,11.25) -- (7.5,10.75);
+\draw [ fill={rgb,255:red,0; green,0; blue,0} ] (7.5,14) rectangle (12.75,13.75);
+\draw [ fill={rgb,255:red,0; green,0; blue,0} ] (7.5,11.75) rectangle (12.75,11.5);
+\begin{scope}[rotate around={-90:(12.5,13.75)}]
+\foreach \x in {0,...,4}{
+  \draw [ line width=0.9pt] (12.5+\x*0.4016064257028112,13.75) -- ++(0.2008032128514056,0.3) -- ++ (0.2008032128514056, -0.3);
+}
+\end{scope}
+\draw [line width=1pt, ->, >=Stealth] (12.75,15.25) -- (12.75,14);
+\draw [line width=0.9pt, <->, >=Stealth] (7.5,14.75) -- (12.75,14.75);
+\node [font=\large] at (10,15) {L};
+\node [font=\large] at (12.75,15.5) {P};
+\node [font=\large] at (10,13.5) {EI};
+\node [font=\large] at (10,12) {EI};
+\node [font=\large] at (14.5,12.75) {$K_s = 3EI/(2L^3)$};
+\end{circuitikz}
