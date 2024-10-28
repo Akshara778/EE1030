@@ -1,0 +1,35 @@
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw (10,16) to[R] (13.5,16);
+\draw (13.5,16) to[R] (13.5,13);
+\draw (13.5,13) to[R] (17.25,13);
+\draw (10,16) to[short] (10,13);
+\draw (10,13) to[short] (10.75,13);
+\draw (10.75,13.5) to[short] (10.75,13);
+\draw (12.5,13.5) to[short] (12.5,13);
+\draw (12.5,13) to[short] (13.75,13);
+\draw (10.75,13) to[short] (10.75,12.25);
+\draw (12.5,13) to[short] (12.5,12.25);
+\draw (13.25,16) to[short] (15,16);
+\draw (15,16) to[short] (15,16.5);
+\draw (16.75,16.5) to[short] (16.75,16);
+\draw (15,16) to[short] (15,15.25);
+\draw (16.75,16) to[short] (16.75,15.25);
+\draw (16.75,16) to[short] (17.25,16);
+\draw (17.25,16) to[short] (17.25,13);
+\draw (10,13.25) to[short] (10,10.75);
+\draw (17.25,13) to[short] (17.25,10.75);
+\draw (10,10.75) to[sinusoidal voltage source, sources/symbol/rotate=auto] (17.25,10.75);
+\draw (15,16.5) to[C] (16.75,16.5);
+\draw (10.75,13.5) to[C] (12.5,13.5);
+\draw (10.75,12.25) to[L ] (12.5,12.25);
+\draw (15,15.25) to[L ] (16.75,15.25);
+\node [font=\large] at (11.75,16.5) {4$\Omega$};
+\node [font=\large] at (16.5,17) {2\muF};
+\node [font=\large] at (16,14.75) {500mH};
+\node [font=\large] at (15.25,13.5) {5$\Omega$};
+\node [font=\large] at (14.25,14.25) {1$\Omega$};
+\node [font=\large] at (11.5,14.25) {250\muF};
+\node [font=\large] at (11.5,11.75) {4mH};
+\node [font=\large] at (13.75,10) {10sin(1000t)};
+\end{circuitikz}

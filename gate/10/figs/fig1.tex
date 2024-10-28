@@ -1,0 +1,52 @@
+\resizebox{0.7\textwidth}{!}{ % Adjust the scaling factor (0.7) as needed
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw (6.5,16.25) to[battery2] (6.5,12);
+\draw (6.5,12) to[battery2] (6.5,8.75);
+\draw (6.5,16.25) to[short] (14.5,16.25);
+\draw (6.5,8.75) to[short] (14.5,8.75);
+\draw (6.5,12.5) to[L ] (11,12.5);
+\draw (11,12.5) to[R] (14.5,12.5);
+\draw (14.5,12.25) to[Tnpn, transistors/scale=1.19] (14.5,16.25);
+\draw (14.5,8.75) to[Tnpn, transistors/scale=1.19] (14.5,12.75);
+\draw (15.5,13.25) to[D] (15.5,15.75);
+\draw (15.5,9.25) to[D] (15.5,11.5);
+\draw (14.5,15.75) to[short] (15.5,15.75);
+\draw (14.5,13.25) to[short] (15.5,13.25);
+\draw (14.5,11.5) to[short] (15.5,11.5);
+\draw (14.5,9.25) to[short] (15.5,9.25);
+\node at (6.5,12.5) [circ] {};
+\node at (14.5,12.5) [circ] {};
+\draw [->, >=Stealth] (19.25,12.5) -- (28.75,12.5);
+\draw [short] (20.25,16.25) -- (20.25,8.75);
+\foreach \x in {0,...,20}{
+  \draw  (20.25+\x*0.36363636363636365,9.5) -- ++(0.18181818181818182,6) -- ++ (0.18181818181818182, -6);
+}
+\begin{scope}[rotate around={1.75:(20.25,12.5)}]
+\draw[domain=20.25:28,samples=100,smooth color={rgb,255:red,255; green,0; blue,0}, line width=1.5pt] plot (\x,{2*sin(2.14*\x r -20.25 r ) +12.5});
+\end{scope}
+\draw [short] (19,14.5) -- (20.25,14.5);
+\draw [short] (28,15.5) -- (28.75,15.5);
+\draw [<->, >=Stealth] (19.75,14.5) -- (19.75,12.5);
+\draw [<->, >=Stealth] (28.25,15.5) -- (28.25,12.5);
+\draw [->, >=Stealth] (28,17.25) -- (26.25,15.25);
+\draw [ color={rgb,255:red,255; green,0; blue,0}, ->, >=Stealth] (29.25,10.75) -- (27.75,12);
+\draw [->, >=Stealth] (7,9) -- (7,12.25);
+\draw [->, >=Stealth] (7,12.75) -- (7,16.25);
+\draw [->, >=Stealth] (11.75,13.25) -- (9.75,13.25);
+\node [font=\large] at (8.5,14.25) {$V_{DC}/2=250V$};
+\node [font=\large] at (8.5,10) {$V_{DC}/2=250V$};
+\node [font=\normalsize] at (9,12) {$X_L = 16\Omega at 100 Hz$};
+\node [font=\large] at (12.5,11.75) {R=12 $\Omega$};
+\node [font=\large] at (13.5,15.25) {T1};
+\node [font=\large] at (13.5,9.75) {T2};
+\node [font=\large] at (19.25,13.25) {0.8};
+\node [font=\large] at (28.75,13.75) {1};
+\node [font=\large] at (28.5,17.5) {$V_c$};
+\node [font=\large, color={rgb,255:red,255; green,0; blue,0}] at (29.75,10.5) {$V_m$};
+\node [font=\LARGE] at (29.25,12.5) {t};
+\node [font=\large] at (11,13.75) {$i_L$};
+\node [font=\large] at (10.5,7.75) {$(a)$};
+\node [font=\large] at (24.5,7.75) {$(b)$};
+\end{circuitikz}
+}

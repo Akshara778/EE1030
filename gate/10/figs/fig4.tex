@@ -1,0 +1,18 @@
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw (13.5,13) to[sinusoidal voltage source, sources/symbol/rotate=auto] (18.25,13);
+\draw (13.5,13) to[short] (13.5,15);
+\draw (18.25,15) to[short] (18.25,13);
+\draw (13.5,15) to[short] (14.25,15);
+\draw (18.25,15) to[short] (17.5,15);
+\draw (14.25,15.5) to[short] (14.25,14.5);
+\draw (17.5,15.5) to[short] (17.5,14.5);
+\draw (14.25,15.5) to[C] (16,15.5);
+\draw (14.25,14.5) to[L ] (16,14.5);
+\draw (16,15.5) to[R] (17.5,15.5);
+\draw (16,14.5) to[R] (17.5,14.5);
+\node [font=\large] at (15,16.25) {100\muF};
+\node [font=\large] at (16.75,16) {R};
+\node [font=\large] at (16.75,14) {R};
+\node [font=\large] at (15.25,14) {0.02H};
+\end{circuitikz}
