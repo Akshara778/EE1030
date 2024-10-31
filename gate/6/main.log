@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  28 OCT 2024 01:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  31 OCT 2024 20:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1421,26 +1421,21 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Overfull \hbox (288.0602pt too wide) in paragraph at lines 101--102
+Overfull \hbox (288.0602pt too wide) in paragraph at lines 107--109
 []\OT1/txr/m/n/12 Anuj, Bhola, Chan-dan, Dilip, Eswar and Faisal live on dif-fe
 r-ent floors in a six-storeyed building$[]$.
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
 (./tables/table1.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/us
 r/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-Overfull \hbox (24.16875pt too wide) in paragraph at lines 116--117
+Overfull \hbox (24.16875pt too wide) in paragraph at lines 125--126
 \OT1/txr/m/n/12 Which of the fol-low-ing are true? $[]$ 
  []
 
 (./figs/fig1.tex) [2]
-Overfull \hbox (20.7566pt too wide) in paragraph at lines 141--148
+Overfull \hbox (20.7566pt too wide) in paragraph at lines 153--161
 \OT1/txr/m/n/12 The prob-a-bil-ity that $\OML/txmi/m/it/12 E$ \OT1/txr/m/n/12 l
-ies in be-tween $2$ and $4$ mm/-day in a day in the wa-ter-shed is $[] []$ 
+ies in be-tween $2$ and $4$ mm/-day in a day in the wa-ter-shed is $[] []$
  []
 
 [3] (./main.aux)
@@ -1454,7 +1449,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  46730 strings out of 476188
  1090710 string characters out of 5795815
- 1953975 words of memory out of 5000000
+ 1954975 words of memory out of 5000000
  67962 multiletter control sequences out of 15000+600000
  615862 words of font info for 150 fonts, out of 8000000 for 9000
  17 hyphenation exceptions out of 8191
@@ -1465,7 +1460,7 @@ exmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on main.pdf (3 pages, 50248 bytes).
+Output written on main.pdf (3 pages, 50404 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  93 compressed objects within 1 object stream
