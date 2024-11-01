@@ -1,0 +1,179 @@
+%iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}
+\usepackage{circuitikz}
+%\def\inputGnumericTable{}                         
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+\usepackage{multicol}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+\title{2020-ME-27-39}
+\author{EE24BTECH11003 - Akshara Sarma Chennubhatla}
+\maketitle
+\begin{enumerate}[start=27]
+
+\item A vector field is defined as
+\begin{align*}
+\vec{f}\brak{x,y,z} = \frac{x}{\sbrak{x^2 + y^2 + z^2}^\frac{3}{2}}\vec{i} + \frac{y}{\sbrak{x^2 + y^2 + z^2}^\frac{3}{2}}\vec{j} + \frac{z}{\sbrak{x^2 + y^2 + z^2}^\frac{3}{2}}\vec{k}
+\end{align*}
+where $\vec{i}, \vec{j}, \vec{k}$ are unit vectors along the axes of a right-handed rectangular Cartesian coordinate system. The surface integral $\int\int \vec{f}.d\vec{S}$ $\brak{\text{where d}\vec{S}\text{is an elemental surface area vector}}$ evaluated over the inner and outer surfaces of a spherical shell formed by two concentric spheres with origin as the center, and internal and external radii of $1$ and $2$, respectively, is
+\hfill{\brak{2020}}
+\begin{enumerate}
+\item $0$
+\item $2\pi$
+\item $4\pi$
+\item $8\pi$
+\end{enumerate}
+
+\item Bars of square and circular cross-section with $0.5$ m length are made of a material with shear strength of $20$ MPa. The square bar cross-section dimension $4$ cm x $4$ cm and the cylindrical bar of cross-section diameter is $4$ cm. The specimens are loaded as shown in the figure.
+\begin{center}
+\input{figs/fig1}
+\end{center}
+Which specimen will fail due to the applied load as per maximum shear stress theory?
+\hfill{\brak{2020}}
+\begin{enumerate}
+\item Tensile and compressive load specimens
+\item Torsional load specimen
+\item Bending load specimen
+\item None of the specimen
+\end{enumerate}
+
+\item The $2$ kg block shown in the figure $\brak{\text{top view}}$ rests on a smooth horizontal surface and is attached to a massless elastic cord that has a stiffness $5$ N/m.
+\begin{center}
+\input{figs/fig2}
+\end{center}
+The cord hinged at \textbf{O} is initially unstretched and always remains elastic. The block id given a velocity $v$ of $1.5$ m/s perpendicular to the cord. The magnitude of velocity in m/s of the block at the instant the cord is stretched by $0.4$ m is
+\hfill{\brak{2020}}
+\begin{enumerate}
+\item $0.83$
+\item $1.07$
+\item $1.36$
+\item $1.50$
+\end{enumerate}
+
+
+\item The truss shown in the figure has four members of length $l$ and flexural rigidity $El$, and one member of length $l\sqrt{2}$ and flexural rigidity $4El$. The truss is loaded by a pair of forces of magnitude $P$, as shown in the figure.
+\begin{center}
+\input{figs/fig3}
+\end{center}
+The smallest value of $P$, at which any of the truss members will buckle is
+\hfill{\brak{2020}}
+\begin{enumerate}
+\item $\frac{\sqrt{2}\pi^2El}{l^2}$
+\item $\frac{\pi^2El}{l^2}$
+\item $\frac{2\pi^2El}{l^2}$
+\item $\frac{\pi^2El}{2l^2}$
+\end{enumerate}
+
+\item A rigid mass-less rod of length $L$ is connected to a disc $\brak{\text{pulley}}$ of mass $m$ and radius $r = \frac{L}{4}$ through a friction-less revolute joint. The other end of that rod is attached to a wall through a friction-less hinge. A spring of stiffness $2k$ is attached to the rod at its mid-span. An inextensible rope passes over half the disc periphery and is securely tied to a spring of stiffness $k$ at point $C$ as shown in the figure. There is no slip between the rope and the pulley. The system is in static equilibrium in the configuration shown in the figure and the rope is always taut.
+\begin{center}
+\input{figs/fig4}
+\end{center}
+Neglecting the influence of gravity, the natural frequency of the system for small amplitude vibration is
+\hfill{\brak{2020}}
+\begin{enumerate}
+\item $\sqrt{\frac{3}{2}}\sqrt{\frac{k}{m}}$ 
+\item $\frac{3}{\sqrt{2}}\sqrt{\frac{k}{m}}$ 
+\item $\sqrt{3}\sqrt{\frac{k}{m}}$ 
+\item $\sqrt{\frac{k}{m}}$ 
+\end{enumerate}
+
+\item A strip of thickness $40$ mm is to be rolled to a thickness of $20$ mm using a two-high mill having rolls of diameter $200$ mm. Coefficient of friction and are length in mm, respectively are
+\hfill{\brak{2020}}
+\begin{enumerate}
+\item $0.45$ and $38.84$
+\item $0.39$ and $38.84$
+\item $0.39$ and $44.72$
+\item $0.45$ and $44.72$
+\end{enumerate}
+
+\item For an assembly line, the production rate was $4$ pieces per hour and the average processing time was $60$ minutes. The WIP inventory was calculated. Now, the production rate is kept the same, and the average processing time is brought down by $30$ percent. As a result of this change in the processing time, the WIP inventory.
+\hfill{\brak{2020}}
+\begin{enumerate}
+\item decreases by $25\%$
+\item increases by $25\%$
+\item decreases by $30\%$
+\item increases by $30\%$
+\end{enumerate}
+
+\item A small metal bead of radius $0.5$ mm, initially at $100^\circ$ C, when placed in a stream of fluid at $20^\circ$ C, attains a temperature of $28^\circ$ C in $4.35$ seconds. The density and specific heat of the metal are $8500$ kg/$m^3$ and $400$ J/kg.K, respectively. If the bead is considered as lumped system, the convective heat transfer coefficient $\brak{\text{in W}/m^2 .K}$ between the metal bead and the fluid stream is
+\hfill{\brak{2020}}
+\begin{enumerate}
+\item $283.3$
+\item $299.8$
+\item $149.9$
+\item $449.7$
+\end{enumerate}
+
+\item Consider two exponentially distributed random variables $X$ and $Y$, both having a mean of $0.50$. Let $Z=X+Y$ and $r$ be the correlation coefficient between $X$ and $Y$. If the variance of $Z$ equals $0$, then the value of $r$ is $\rule{2cm}{0.1pt}\brak{\text{round off to 2 decimal places}}$.
+\hfill{\brak{2020}}
+
+\item An analytic function of a complex variable $z = x + iy \brak{i=\sqrt{-1}}$ is defined as
+\begin{align*}
+f\brak{z} = x^2 - y^2 + i\psi\brak{x,y},
+\end{align*}
+where $\psi\brak{x,y}$ is a real function. The value of the imaginary part of $f\brak{z}$ at $z=\brak{1+i}$ is $\rule{2cm}{0.1pt}$ $\brak{\text{round off to 2 decimal places}}$.
+\hfill{\brak{2020}}
+
+\item In a disc-type axial clutch, the friction contact takes places within an annular region with outer and inner diameters $250$ mm and $50$ mm, respectively. An axial force $F_1$ is needed to transmit a torque by a new clutch. However, to transmit the same torque, one needs an axial force $F_2$ when the clutch wears out. If contact pressure remains uniform during operation of a new clutch while the wear is assumed to be uniform for an old clutch, and the coefficient of friction does not change, then the ratio $\frac{F_1}{F_2}$ is $\rule{2cm}{0.1pt}\brak{\text{round off to 2 decimal places}}$.
+\hfill{\brak{2020}}
+
+\item A cam with a translating flat-face follower is desired to have the follower motion
+\begin{align*}
+y\brak{\theta} = 4\sbrak{2\pi\theta - \theta^2} &, 0 \leq \theta \leq 2\pi.
+\end{align*}
+Contact stress considerations dictate that the radius of curvature of the cam profile should not be less than $40$ mm anywhere. The minimum permissible base circle radius is $\rule{2cm}{0.1pt}$ mm $\brak{\text{round off to one decimal place}}$.
+\hfill{\brak{2020}}
+
+\item A rectangular steel bar of length $500$ mm, width $100$ mm, and thickness $15$ mm is cantilevered to a $200$ mm steel channel using $4$ bolts, as shown.
+\begin{center}
+\input{figs/fig5}
+\end{center}
+For an external load of $10$ kN applied at the tip of the steel bar, the resultant shear load on the bolt at $B$, is $\rule{2cm}{0.1pt}$ kN $\brak{\text{round off to one decimal place}}$.
+\hfill{\brak{2020}}
+
+
+\end{enumerate}
+\end{document}

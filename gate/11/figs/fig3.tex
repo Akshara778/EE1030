@@ -1,0 +1,24 @@
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw [ color={rgb,255:red,255; green,136; blue,0} , line width=1.1pt ] (9.5,15.5) rectangle (16,9.25);
+\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=1.2pt, ->, >=Stealth] (16,9.25) -- (17,8.25);
+\draw [ color={rgb,255:red,0; green,0; blue,255}, line width=1.2pt, ->, >=Stealth] (9.5,15.5) -- (8.5,16.5);
+\draw [ color={rgb,255:red,255; green,136; blue,0}, line width=2pt, short] (9.5,9.25) -- (16,15.5);
+\draw [ color={rgb,255:red,255; green,136; blue,0} , fill={rgb,255:red,255; green,254; blue,255}, line width=1.1pt ] (9.5,15.5) circle (0.25cm);
+\draw [ color={rgb,255:red,255; green,136; blue,0} , fill={rgb,255:red,255; green,254; blue,255}, line width=1.1pt ] (16,15.5) circle (0.25cm);
+\draw [ color={rgb,255:red,255; green,136; blue,0} , fill={rgb,255:red,255; green,254; blue,255}, line width=1.1pt ] (16,9.25) circle (0.25cm);
+\draw [ color={rgb,255:red,255; green,136; blue,0} , fill={rgb,255:red,255; green,254; blue,255}, line width=1.1pt ] (9.5,9.25) circle (0.25cm);
+\draw [ color={rgb,255:red,0; green,0; blue,255}, dashed] (9.25,15.5) -- (8,15.5);
+\draw [ color={rgb,255:red,0; green,0; blue,255}, dashed] (16.25,9.25) -- (17.5,9.25);
+\draw [short] (16.75,9.25) .. controls (17,8.75) and (16.75,8.75) .. (16.5,8.75);
+\draw [short] (9,16) .. controls (8.75,15.75) and (8.5,15.75) .. (8.75,15.5);
+\node [font=\large] at (12.5,15.75) {l, El};
+\node [font=\large] at (16.5,12.25) {l, El};
+\node [font=\large] at (11.75,12.75) {l $\sqrt{2}$, 4El};
+\node [font=\large] at (8.75,12.25) {l, El};
+\node [font=\large] at (13,8.75) {l, El};
+\node [font=\large] at (8.25,15.75) {$45^\circ$};
+\node [font=\large] at (17.25,8.75) {$45^\circ$};
+\node [font=\large] at (16,8.5) {P};
+\node [font=\large] at (9.75,16) {P};
+\end{circuitikz}
