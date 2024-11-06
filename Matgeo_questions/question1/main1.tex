@@ -175,7 +175,7 @@ void points(FILE *fptr, double **a, double **b, int num_points) {
     }
 }
 \end{lstlisting}
-\vspace{0.3cm} % Adds vertical space after the code
+\vspace{0.5cm} % Adds more space after the code
 \end{frame}
 
 \begin{frame}[fragile]
@@ -200,17 +200,18 @@ int main() {
     B[1][0] = y2;
     P[0][0] = x3;
     P[1][0] = y3;
+
+\begin{frame}[fragile]
+\vspace{0.3cm}
     FILE *fptr;
     fptr = fopen("points.txt", "w");
     if (fptr == NULL) {
         printf("Error opening file!\n");
         return 1;
     }
-\end{lstlisting}
-\vspace{0.3cm} % Adds vertical space after the code
+\end{lstlisting} % Adds more space after the code
 \end{frame}
 
-\begin{frame}[fragile]
 \frametitle{C Code (Part 3)}
 \vspace{0.3cm} % Adds vertical space before the code
 \begin{lstlisting}[language=C]
@@ -220,7 +221,7 @@ int main() {
     return 0;
 }
 \end{lstlisting}
-\vspace{0.3cm} % Adds vertical space after the code
+\vspace{0.5cm} % Adds more space after the code
 \end{frame}
 
 % Python Code Section
